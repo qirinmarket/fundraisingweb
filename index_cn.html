@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>Qirin</title>
+		<meta name="keywords" content="虚拟货币" />
+		<meta name="description" content="" />
+
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="layer/mobile/need/layer.css" />
+		<link rel="stylesheet" href="font/iconfont.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" id='css' href="" />
+		
+		<!--动态css-->
+		<link rel="stylesheet" href="xiao/asset/css/particle.css">
+		<link rel="stylesheet" href="xiao/index_files/font-awesome.min.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="layer/layer.js"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.jquery.min.js"></script>
+		<link rel="stylesheet" href="./Swiper-3.4.2/dist/css/swiper.min.css">    	
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	</head>
+	<body> 
+		<div class="container">
+			<!--<div class='box logobox'>
+				<div class='logo'> <img src="./img/1-1.png" alt="" /></div>
+			</div>-->
+
+			
+			<!--head begin-->
+			<div class='box headbox'>
+				<div class='head'>
+					<div class='nav'>
+						<span><a class="mian_js">主页</a></span>
+						<span><a href="#whyus">优势</a></span>
+						<span><a href="#qirincoin">Qirin币</a></span>
+						<span><a href="#team">团队</a></span>
+						<span><a href="#roadmap">路线图</a></span>
+						<span> 
+							<span href='javascript:;'>白皮书</span>
+							<div class='pi_a'>
+								<a href="./docs/Qirin_Market_OnePager_6_CHN.pdf">一页白皮书</a>
+								<a href="./docs/Qirin_Market_Deck_9_CHN.pdf">轻皮书</a>
+								<a href="./docs/QirinMarketWhitePaper_ver.1.1_CHN.pdf">白皮书</a>
+							</div>
+						</span>
+						<span><a href="#faq">常见问题</a></span>
+						<span><a href="index.html">English</a></span>						
+					</div>
+					
+					
+					
+<!--					<div class='english'>
+						<a href="./index.html">English</a>
+					</div> -->
+					<script>
+					$(function(){
+						var span1=$('.nav').find('span').eq(5);
+						var span7=$('.nav').find('span').eq(7);
+						var pi=$('.pi_a');
+						var english=$('.english');
+						
+						span1.hover(function(){
+							pi.css('display','block');
+						},function(){
+							pi.css('display','none'); 
+						})
+//						pi.mouseenter(function(){
+//							pi.css('display','block');
+//						})
+//						pi.mouseleave(function(){
+//							pi.css('display','none');
+//						})
+						
+						span7.hover(function(){
+							english.css('display','block');
+						},function(){
+							english.css('display','none');
+						}) 
+//						english.mouseenter(function(){
+//							english.css('display','block');
+//						})
+//						english.mouseleave(function(){
+//							english.css('display','none');
+//						})
+					})
+						
+					</script>
+				</div>
+			</div>
+			<div class='main'>
+				<div class='banner'>
+					<div class='logo'> <img src="./img/1-1.png" alt="" /></div>
+					<span >
+						<a href="#CFD">Qirin CFDs</a>
+						<a href="#Futures">Qirin Futures</a>
+						<a href="#Spot">Qirin Spot</a>
+						<a href="demo/index.html">演示</a>
+					</span>
+				</div>
+				<div class='advantagebox' id="whyus">
+					<div class='advantage'>
+						<span class='ye_title'>优势</span>
+						<ul>
+							<li>
+								<i></i>
+								<span class='ad_title'>日本制造&日本服务水准</span>
+								<p>Qirin Market 提供的系统和服务<br/>都是来自日本一流的技术和服务</p>
+							</li>
+							<li>
+								<i></i>
+								<span class='ad_title'>高杠杆&高安全性</span>
+								<p>
+									用户在体验高杠杆服务的同时享受平台提供的日本独有的风险管理模式<br/>
+									<span>强制止损</span>
+									<span>偏差调整比例</span>
+									<span>和解清算</span>
+								</p>
+							</li>
+						</ul>
+						<div class='ad_kong'></div>
+						<span class='ye_title'>收益模式</span>
+						<div class='ad_kong'></div>
+						<ul>
+							<li>
+								<span>手续费</span>
+								<div class='s_img'></div>
+								<p>某数字货币CFD交易所一天的比特币交易规模大约在15亿美金.<br>
+									推测收益每天超过2千万美金如果按照15bp(7.5bp×２) 手续费来计算.								
+								</p>
+							</li>
+							<li>
+								<span>Qirin币</span>
+								<p>Qirin Market的平台币，也是CFDs和期货交易的基准币</p>
+								<div class='q_img'></div>
+								<p>通过Qirin币与其他交易所互动</p>
+								<div></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class='coinsbox'>
+					<ul class='coins'> 
+						<li>
+							<span></span>
+							<div class='coins_ev_content' id="CFD">
+								<p>-Qirin CFDs</p>
+								<div>Qirin CFDs是无期限合约型的差价结算交易服务。<br/>
+主要功能是从投资人接受订单，撮合，把成立的订单信息作为头寸订单信息进行管理。<br/>
+系统具有CFD交易中必须的市值计价，强制止损，监视下单时由于操作失误而产生的风险及风险控制功能，<br/>
+监视是否发生异常交易的买卖审查功能，还有通过在市场剧烈变动时的熔断机制等实现维持安定的市场运营的功能。
+								</div>
+							</div>
+						</li>
+						<li>
+							<span></span>
+							<div class='coins_ev_content' id="Futures">
+								<p>-Qirin Futures</p> 
+								<div>Qirin Futures提供的服务概念和Qirin CFDs十分相似，Qirin CFDs提供的CFD商品是无期限合约，<br/>
+									但Qirin Futures是根据交割日的设定进行的有限期的交易。所以，需要追加期限管理和计算结算价格的功能。<br/>
+									一般来说，期货交易以现货交易为基础。Qirin Futures提供的期货交易是差价结算型的服务。
+</div>
+							</div> 
+						</li> 
+						<li>
+							<span></span>
+							<div class='coins_ev_content' id="Spot">
+								<p>-Qirin Spot</p>
+								<div>Qirin Spot是数字货币交换所系统。<br/>
+								拥有的数字货币量，通过参照外部的数字货币市场（参照市场）的价格，<br/>
+								对投资人提示买卖价格。成立的买卖信息通过写进区块链，在保证透明性的前提下，将交易的数字货币交付到用户专用的钱包地址。<br/>
+								同时，根据投资人的订单状况针对外部市场进行抵补交易，当外部市场有足够的价格差时，进行套利交易。<br/>
+								将来还会导入个人信贷服务。
+								<div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class='schemebox' id="qirincoin">
+					<div class='scheme'> 
+						<span class='ye_title'>Qirin币-Qirin Coin</span>
+						<div class='scheme_content'>
+							<ul>
+								<li>Qirin币(QRN)代币总量10亿</li>
+								<li>50%的Qirin币将通过私募发售</li>
+								<li>40%在2018年5月私募</li>
+								<li>10%在2019年私募</li>
+								<li>20%创始团队成员早期拥有</li>
+								<li>15%用户奖励和团队运营</li>
+								<li>15%用于与其他交易所合作</li>
+							</ul>
+						</div>
+					</div>
+				</div> 
+				<div class='teambox' id="team">
+					<div class='team'>
+						<span class='ye_title'>Qirin团队</span>
+						<div class='team_zhan'></div>
+						<ul class='team_all'>
+							<li>
+								<div class='team_img team_all_img'><i></i></div>
+								<div class='team_content'>
+									<h4>尾崎 孝博</h4>
+									<span>创始人</span>
+									<div class='team_zhan'></div>
+									<p>1999年创立Intertrade上市公司至今。
+在瑞穗证券负责股权销售10年。他所属于东京扶轮社，与大型金融机构和公司经理保持着广泛的人脉关系。
+</p>
+								</div>
+							</li>
+							<li>
+								<div class='team_img team_all_img'><i></i></div>
+								<div class='team_content'>
+									<h4>西本 一也</h4>
+									<span>创始人</span>
+									<div class='team_zhan'></div>
+									<p>1999年创立Intertrade上市公司至今
+在瑞穗证券负责股权销售11年。 Fintech公司ITER的董事长。
+</p>
+								</div>
+							</li>
+							<li>
+								<div class='team_img team_all_img'><i></i></div>
+								<div class='team_content'>
+									<h4>Su Sai</h4>
+									<span>系统开发</span>
+									<div class='team_zhan'></div>
+									
+									<p>6M Capital和Blockstone
+的创始人。
+美国思杰公司的高级软件工程师。 日本筑波大学硕士毕业，MBA。
+</p>
+								</div>
+							</li>
+							<li>
+								<div class='team_img team_all_img'><i></i></div>
+								<div class='team_content'>
+									<h4>八角 大辅</h4>
+									<span>服务企划</span>
+									<div class='team_zhan'></div>
+									
+									<p>Intertrade公司的金融IT服务企划室主管。 。 Fintech公司ITER的经营委员会成员之一。社长秘书，并担任客户主管工作。
+</p>
+								</div>
+							</li>
+							<li>
+								<div class='team_img team_all_img'><i></i></div>
+								<div class='team_content'>
+									<h4>田近 和也</h4>
+									<span>系统设计&开发</span>
+									<div class='team_zhan'></div>
+									
+									<p>Intertrade公司开发部部长. 拥有12年的金融交易系统开发经验。 具有丰富的WEB UI的开发经验。
+</p>
+								</div>
+							</li>
+							<li>
+								<div class='team_img team_all_img'><i></i></div>
+								<div class='team_content'>
+									<h4>池田 和嘉</h4>
+									<span>系统&服务设计</span>
+									<div class='team_zhan'></div>
+									
+									<p>FX交易系统的负责人。 FX交易系统的开发专家。
+</p>
+								</div>
+							</li>
+							<li>
+								<div class='team_img team_all_img'><i></i></div>
+								<div class='team_content'>
+									<h4>高桥 信彦</h4>
+									<span>客户管理和营销</span>
+									<div class='team_zhan'></div>
+									
+									<p>担任Intertrade公司服务运营部的部门负责人。具有丰富的市场营销和客户管理经验。</p>
+								</div>
+							</li>
+							<li>
+								<div class='team_img team_all_img'><i></i></div>
+								<div class='team_content'>
+									<h4>青木 盛茂</h4>
+									<span>Infrastructure design & operation</span>
+									<div class='team_zhan'></div>
+									
+									<p>Intertrade公司系统运用部门主管. 证券交易系统基础构建及设计专家. 曾任职于TIBCO公司OMS/MDS 系统开发工作。
+</p>
+								</div>
+							</li>
+						</ul>
+						<ul class='team_counselor'>
+							<li>
+								<div class='team_img team_counselor_img'><i></i></div>
+									<div class='team_content team_counselor_content'>
+										<h4>山本 晃</h4> 
+										<span>顾问<div class='team_line'></div></span>
+										
+										<div class='team_zhan'></div>
+										<div class='team_counselor_content_one'>
+											<div>
+												1969　东京大学法学部毕业<br> 
+												1969　进入大藏省（现在的财务省）<br> 
+												1992　大藏省（现在的财务省）证券局证券业务课课长<br> 
+												1993 &nbsp;&nbsp;&nbsp;同省的证券局总务课长<br>  
+												1994　东北财务局长 <br> 
+											</div> 
+											<div>
+												1996　大臣官房审议官 (证券局担当)<br> 
+												1999　日本造币局长<br> 
+												2000　信托协会专务理事<br> 
+												2002　日本银行理事<br> 
+												2006　Daiko股份公司经济顾问<br> 
+											</div>
+											<div>
+												2006　日本Clearing服务股份公司顾问<br> 
+												2007　日本Clearing服务股份公司代表取缔役社长<br> 
+												2007　Daiko证券经济股份公司代表取缔役社长<br> 
+												2013　Daiko证券经济股份公司代表取缔役会长<br> 
+												2015　Daiko证券经济股份公司总顾问<br> 
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+					</div>
+				</div>
+				<div class='planbox' id="roadmap">
+					<div class='plan'>
+						<span class='ye_title'>计划</span>
+						<div></div>
+					</div>
+				</div>
+				<div class='questionbox' id="faq">
+					<div class='question'>
+						<span class='ye_title'>常见问题-FAQ</span>
+						<ul>
+							<span class='qu_t_2'>什么是Qirin Market</span>
+							<li><span class='qu_t_3'>`</span>日本制造的CFDs/期货/现货交易所。把高杠杆和安全性这两个看似矛盾的方向完美结合，用户在体验高杠杆服务的同时享受平台提供的日本独有的风险管理模式。</li>
+						</ul>
+						<ul>
+							<span class='qu_t_2'>什么是Qirin 币</span> 
+							<li><span class='qu_t_3'>`</span>Qirin Market发行的代币，简称QRN。基于ERC-20规格</li>
+						</ul>
+						<ul>
+							<span class='qu_t_2'>Qirin币的用处</span>
+							<li><span class='qu_t_3'>`</span>用Qirin币做手续费可以享受折扣</li>
+							<li><span class='qu_t_3'>`</span>平台提供Qirin币为基准币的CFD和期货商品</li>
+							<li><span class='qu_t_3'>`</span>将来可以用Qirin币与其他交易所互动</li>
+							
+						</ul>
+						<ul class='q_2'> 
+							<span class='qu_t_2'>Qirin Market要解决什么问题</span>
+							<ul>
+								<span><span class='qu_t_3'>`</span>安全稳定性低</span>
+								<li>全世界的黑客都在盯着数字货币</li>
+								<li>交易所运营方的不正当操作。例如“精准爆仓”</li>
+							</ul>
+							<ul>  
+								<span><span class='qu_t_3'>`</span>系统构架水平低</span>
+								<li>目前市面上已有的部分交易平台由于并未从事过传统金融交易业务，其交易系统的技术架构过于简陋，并未达到专业级别的金融系统要求，无法承载高效率的并发交易， 容易在交易高峰时出现系统故障，极易造成客户损失。</li>
+							</ul>
+							<ul>
+								<span><span class='qu_t_3'>`</span>交易平台业务不完善</span>
+								<li>多数交易平台的业务流程处理得不够完善，功能缺失，平台产品体验非常原始</li>
+							</ul>
+							<ul>
+								<span><span class='qu_t_3'>`</span>流动性差</span>
+								<li>对于数字货币交易市场， 流动性是至关重要的。现如今，由于市场流动性差，大部分交易所在撮合买方和卖方的时候会造成滑点现象。同时，数字货币价格的高波动性和一边倒的市场预期不仅仅会造成用户的亏损，对于平台造成的亏损无疑也是巨大的
+</li>
+							</ul>
+						</ul>
+					</div>
+				</div>
+			</div> 
+			<div class='footbox'>
+				<div class='foot'>
+					<span>[ 联系我们 ]</span>
+					<table>
+						<tr> 
+							<td><i class='email_c'></i><a href="mailto:info@qirin.io">info@qirin.io</a></td>
+							<td></td>
+						</tr>
+						<!--<tr>  
+							<td><i class='tel_c'></i>13333333333</td>
+							<td></td> 
+						</tr>-->
+					</table>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
+<!--<script type="text/javascript">
+	$(window).on('scroll',function(){
+		var srcollTop=$(window).scrollTop();
+		$('.headbox').addClass('scroll_nav');
+		switch(true){
+			case srcollTop<400:
+			$('.headbox').removeClass('scroll_nav');
+		}
+	})
+</script> -->
+<script>
+	//主页
+	$('.mian_js').click(function(){
+		$(document.body).animate({scrollTop:0},500)
+	})
+	//优势
+	$('.advantage_js').click(function(){
+		$(document.body).animate({scrollTop:300},500)
+	})
+	$('.CFDs_js').click(function(){
+		$(document.body).animate({scrollTop:800},500)
+	})
+	$('.Futures_js').click(function(){
+		$(document.body).animate({scrollTop:900},500)
+	})
+	$('.Spot_js').click(function(){
+		$(document.body).animate({scrollTop:1000},500)
+	})
+	//Qririn币
+	$('.coins_js').click(function(){
+		$(document.body).animate({scrollTop:950},500)
+	})
+	//团队
+	$('.team_js').click(function(){
+		$(document.body).animate({scrollTop:1900},500)
+	})
+	
+	
+	//计划
+	$('.plan_js').click(function(){
+		$(document.body).animate({scrollTop:2700},500)
+	})
+	//常见问题
+	$('.question_js').click(function(){
+		$(document.body).animate({scrollTop:3500},500)
+	})
+</script>
