@@ -467,6 +467,10 @@ html {
   background: url(../img/n3.png);
   background-size: 6.979166666666667vw 6.979166666666667vw;
 }
+.main .teambox .team .team_counselor li:nth-of-type(5) .team_counselor_img {
+  background: url(../img/rickwang.jpg);
+  background-size: 6.979166666666667vw 6.979166666666667vw;
+}
 .main .teambox .team .team_counselor li {
   margin-top: 1.3020833333333335vw;
 }
