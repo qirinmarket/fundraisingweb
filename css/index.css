@@ -454,9 +454,28 @@ html {
   min-height: 11.458333333333334vw;
   padding: 0.78125vw;
 }
-.main .teambox .team .team_counselor .team_counselor_img {
+.main .teambox .team .team_counselor li:nth-of-type(1) .team_counselor_img {
   background: url(../img/29.png);
   background-size: 6.979166666666667vw 6.979166666666667vw;
+}
+.main .teambox .team .team_counselor li:nth-of-type(2) .team_counselor_img {
+  background: url(../img/n2.png);
+  background-size: 6.979166666666667vw 6.979166666666667vw;
+}
+.main .teambox .team .team_counselor li:nth-of-type(3) .team_counselor_img {
+  background: url(../img/n1.png);
+  background-size: 6.979166666666667vw 6.979166666666667vw;
+}
+.main .teambox .team .team_counselor li:nth-of-type(4) .team_counselor_img {
+  background: url(../img/n3.png);
+  background-size: 6.979166666666667vw 6.979166666666667vw;
+}
+.main .teambox .team .team_counselor li:nth-of-type(5) .team_counselor_img {
+  background: url(../img/rickwang.jpg);
+  background-size: 6.979166666666667vw 6.979166666666667vw;
+}
+.main .teambox .team .team_counselor li {
+  margin-top: 1.3020833333333335vw;
 }
 .main .teambox .team .team_counselor li .team_counselor_content {
   width: 52.083333333333336vw;
@@ -478,6 +497,62 @@ html {
 .main .teambox .team .team_counselor li .team_counselor_content .team_counselor_content_one div {
   padding: 0.2604166666666667vw;
   display: inline-block;
+}
+.main .teambox .team .team_investment {
+  width: 100%;
+  min-height: 11.458333333333334vw;
+  padding: 0.78125vw;
+  margin-top: 2.604166666666667vw;
+}
+.main .teambox .team .team_investment .team_zhan {
+  display: block;
+  height: 2.34375vw;
+}
+.main .teambox .team .team_investment li:nth-of-type(1) .team_investment_img {
+  background: url(../img/n4.png);
+  background-size: 6.979166666666667vw 6.979166666666667vw;
+}
+.main .teambox .team .team_investment li:nth-of-type(2) .team_investment_img {
+  background: url(../img/n5.png);
+  background-size: 6.979166666666667vw 6.979166666666667vw;
+}
+.main .teambox .team .team_investment li:nth-of-type(3) .team_investment_img {
+  background: url(../img/n6.png);
+  background-size: 6.979166666666667vw 6.979166666666667vw;
+}
+.main .teambox .team .team_investment li:nth-of-type(4) .team_investment_img {
+  background: url(../img/n7.png);
+  background-size: 6.979166666666667vw 6.979166666666667vw;
+}
+.main .teambox .team .team_investment li:nth-of-type(5) .team_investment_img {
+  background: url(../img/n8.png);
+  background-size: 6.979166666666667vw 6.979166666666667vw;
+}
+.main .teambox .team .team_investment li {
+  display: inline-block;
+  width: 9.375vw;
+  height: 10.416666666666668vw;
+}
+.main .teambox .team .team_investment li .team_img {
+  float: none;
+  margin: 0 auto;
+}
+.main .teambox .team .team_investment li .team_content {
+  margin: 0;
+}
+.main .teambox .team .team_investment li .team_investment_img {
+  display: block;
+}
+.main .teambox .team .team_investment li .team_investment_content {
+  margin: 0;
+}
+.main .teambox .team .team_investment li .team_investment_content h4 {
+  line-height: 2.0833333333333335vw;
+  text-align: center;
+}
+.main .teambox .team .team_investment .team_investment_zhan {
+  display: inline-block;
+  width: 2.0833333333333335vw;
 }
 .main .planbox {
   width: 100%;
@@ -1059,8 +1134,20 @@ html {
     min-height: 137.5px;
     padding: 9.375px;
   }
-  .main .teambox .team .team_counselor .team_counselor_img {
+  .main .teambox .team .team_counselor li:nth-of-type(1) .team_counselor_img {
     background: url(../img/29.png);
+    background-size: 83.75px 83.75px;
+  }
+  .main .teambox .team .team_counselor li:nth-of-type(2) .team_counselor_img {
+    background: url(../img/n2.png);
+    background-size: 83.75px 83.75px;
+  }
+  .main .teambox .team .team_counselor li:nth-of-type(3) .team_counselor_img {
+    background: url(../img/n1.png);
+    background-size: 83.75px 83.75px;
+  }
+  .main .teambox .team .team_counselor li:nth-of-type(4) .team_counselor_img {
+    background: url(../img/n3.png);
     background-size: 83.75px 83.75px;
   }
   .main .teambox .team .team_counselor li .team_counselor_content .team_line {
@@ -1080,6 +1167,47 @@ html {
   .main .teambox .team .team_counselor li .team_counselor_content .team_counselor_content_one div {
     padding: 3.125px;
     display: inline-block;
+  }
+  .main .teambox .team .team_investment {
+    width: 100%;
+    min-height: 137.5px;
+    padding: 9.375px;
+    margin-top: 31.25px;
+  }
+  .main .teambox .team .team_investment li:nth-of-type(1) .team_investment_img {
+    background: url(../img/n4.png);
+    background-size: 83.75px 83.75px;
+  }
+  .main .teambox .team .team_investment li:nth-of-type(2) .team_investment_img {
+    background: url(../img/n5.png);
+    background-size: 83.75px 83.75px;
+  }
+  .main .teambox .team .team_investment li:nth-of-type(3) .team_investment_img {
+    background: url(../img/n6.png);
+    background-size: 83.75px 83.75px;
+  }
+  .main .teambox .team .team_investment li:nth-of-type(4) .team_investment_img {
+    background: url(../img/n7.png);
+    background-size: 83.75px 83.75px;
+  }
+  .main .teambox .team .team_investment li:nth-of-type(5) .team_investment_img {
+    background: url(../img/n8.png);
+    background-size: 83.75px 83.75px;
+  }
+  .main .teambox .team .team_investment li {
+    display: inline-block;
+    width: 93.75px;
+    height: 125px;
+  }
+  .main .teambox .team .team_investment li .team_investment_content {
+    margin-left: 12.5px;
+  }
+  .main .teambox .team .team_investment li .team_investment_content h4 {
+    line-height: 31.25px;
+  }
+  .main .teambox .team .team_investment .team_investment_zhan {
+    display: inline-block;
+    width: 37.5px;
   }
   .main .planbox {
     width: 100%;
