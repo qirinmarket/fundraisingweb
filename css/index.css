@@ -528,6 +528,10 @@ html {
   background: url(../img/n8.png);
   background-size: 6.979166666666667vw 6.979166666666667vw;
 }
+.main .teambox .team .team_investment li:nth-of-type(6) .team_investment_img {
+  background: url(../img/n9.png);
+  background-size: 6.979166666666667vw 6.979166666666667vw;
+}
 .main .teambox .team .team_investment li {
   display: inline-block;
   width: 9.375vw;
@@ -1150,6 +1154,10 @@ html {
     background: url(../img/n3.png);
     background-size: 83.75px 83.75px;
   }
+  .main .teambox .team .team_counselor li:nth-of-type(5) .team_counselor_img {
+    background: url(../img/rickwang.png);
+    background-size: 83.75px 83.75px;
+  }
   .main .teambox .team .team_counselor li .team_counselor_content .team_line {
     position: absolute;
     top: 12.5px;
@@ -1192,6 +1200,10 @@ html {
   }
   .main .teambox .team .team_investment li:nth-of-type(5) .team_investment_img {
     background: url(../img/n8.png);
+    background-size: 83.75px 83.75px;
+  }
+  .main .teambox .team .team_investment li:nth-of-type(6) .team_investment_img {
+    background: url(../img/n9.png);
     background-size: 83.75px 83.75px;
   }
   .main .teambox .team .team_investment li {
