@@ -463,14 +463,10 @@ html {
   background-size: 6.979166666666667vw 6.979166666666667vw;
 }
 .main .teambox .team .team_counselor li:nth-of-type(3) .team_counselor_img {
-  background: url(../img/n1.png);
-  background-size: 6.979166666666667vw 6.979166666666667vw;
-}
-.main .teambox .team .team_counselor li:nth-of-type(4) .team_counselor_img {
   background: url(../img/n3.png);
   background-size: 6.979166666666667vw 6.979166666666667vw;
 }
-.main .teambox .team .team_counselor li:nth-of-type(5) .team_counselor_img {
+.main .teambox .team .team_counselor li:nth-of-type(4) .team_counselor_img {
   background: url(../img/rickwang.png);
   background-size: 6.979166666666667vw 6.979166666666667vw;
 }
@@ -1147,14 +1143,10 @@ html {
     background-size: 83.75px 83.75px;
   }
   .main .teambox .team .team_counselor li:nth-of-type(3) .team_counselor_img {
-    background: url(../img/n1.png);
-    background-size: 83.75px 83.75px;
-  }
-  .main .teambox .team .team_counselor li:nth-of-type(4) .team_counselor_img {
     background: url(../img/n3.png);
     background-size: 83.75px 83.75px;
   }
-  .main .teambox .team .team_counselor li:nth-of-type(5) .team_counselor_img {
+  .main .teambox .team .team_counselor li:nth-of-type(4) .team_counselor_img {
     background: url(../img/rickwang.png);
     background-size: 83.75px 83.75px;
   }
